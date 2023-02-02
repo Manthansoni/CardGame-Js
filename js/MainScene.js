@@ -1,4 +1,5 @@
-export default class mainScene extends Phaser.Scene {
+import CardBase from "../js/CardBase.js";
+export default class MainScene extends Phaser.Scene {
     constructor(){
         super('MainScene');
     }
